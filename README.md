@@ -11,7 +11,9 @@ You can either use a real physical Android device or use the inbuilt emulator pr
 ## Project common setup 
 1. Make sure you have [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 2. Install [Android Studio, which includes Android SDK](https://developer.android.com/studio/index.html)
-3. Install the Kotlin plugin in Android studio: Preferences > Plugins > Search for Kotlin. It may prompt you to search in external repositories, just follow the instructions to install the Kotlin plugin
+3. If you are using Android Studio 2.x, install the Kotlin plugin in Android studio: Preferences > Plugins > Search for Kotlin.
+It may prompt you to search in external repositories, just follow the instructions to install the Kotlin plugin. (The Kotlin plugin comes with
+Android Studio 3.x.)
 4. Clone this repository 
 ```
 git clone https://github.com/jleu1656/wwc-droidtalk-kotlin-skeleton.git
