@@ -1,4 +1,4 @@
-# DroidTalk in Kotlin: Women Who Code August 2016
+# DroidTalk in Kotlin: Women Who Code August 2017
 This git repo contains the skeleton code to get started building out DroidTalk, a messaging app using Kotlin.
 
 # Setup! 
