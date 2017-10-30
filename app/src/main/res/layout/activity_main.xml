@@ -1,41 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="368dp"
-    android:layout_height="495dp"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/standard_margin"
-    android:paddingLeft="@dimen/standard_margin"
-    android:paddingRight="@dimen/standard_margin"
-    android:paddingTop="@dimen/standard_margin">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_margin"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin"
+    android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/messages_list"
+    <ListView
+        android:id="@+id/message_list"
         android:layout_width="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_height="match_parent" />
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:orientation="horizontal"
-        android:weightSum="4">
+        android:weightSum="4" >
 
         <EditText
-            android:id="@+id/message_edit_text"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/message_input"
             android:layout_weight="3"
-            android:hint="@string/enter_message_here" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
 
         <Button
-            android:id="@+id/submit_message_button"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:id="@+id/message_button"
+            android:layout_width="100dp"
             android:layout_weight="1"
-            android:text="@string/submit" />
+            android:layout_height="50dp"
+            android:text="@string/send"/>
     </LinearLayout>
 
-</RelativeLayout>
-
+</LinearLayout>
