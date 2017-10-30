@@ -33,7 +33,7 @@ Generally to enable develop options, although this may depend on the model and m
 4. Enable USB Debugging
 
 # Running the app 
-1. Open the project in Android Studio
+1. Import the project in Android Studio
 2. Android Studio will likely prompt you to install dependencies unless you already have them, proceed to install them 
 3. In Android Studio, shift + f10 or click on the green play button to build the app. Select a virtual device.
 
