@@ -21,19 +21,10 @@
         android:orientation="horizontal"
         android:weightSum="4" >
 
-        <EditText
-            android:id="@+id/message_input"
-            android:layout_weight="3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text" />
+        <!-- EDITTEXT FIELD INPUT HERE -->
 
-        <Button
-            android:id="@+id/message_button"
-            android:layout_width="100dp"
-            android:layout_weight="1"
-            android:layout_height="50dp"
-            android:text="@string/send"/>
+        <!-- BUTTON HERE -->
+
     </LinearLayout>
 
 </LinearLayout>
