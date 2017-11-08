@@ -1,7 +1,7 @@
 package au.com.wwc.droidtalk.ui
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import au.com.wwc.droidtalk.R
 
 class MainActivity : AppCompatActivity() {
