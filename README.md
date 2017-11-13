@@ -2,7 +2,7 @@
 This git repo contains the skeleton code to get started building out DroidTalk, a messaging app using Kotlin.
 
 ## Slides
-Can be find here: https://goo.gl/dCmTtX 
+Can be found here: https://goo.gl/dCmTtX 
 # Setup! 
 There are many ways to deploy the app. 
 
